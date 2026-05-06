@@ -289,7 +289,7 @@ cats.forEach((c, i) => {
       else if (sFlat)  badgeHTML = '<span class="badge neutral">— 0,00%</span>';
       else             badgeHTML = `<span class="badge ${sUp ? 'up' : 'down'}">${sUp ? '▲' : '▼'} ${Math.abs(sv).toFixed(2)}%</span>`;
 
-      const sDiffColor = isNew ? '#f5c842' : isRem ? 'var(--green)' : sFlat ? 'var(--muted2)' : sUp ? 'var(--red)' : 'var(--green)';
+      const sDiffColor = isNew ? '#f07832' : isRem ? 'var(--green)' : sFlat ? 'var(--muted2)' : sUp ? 'var(--red)' : 'var(--green)';
 
       const subRow = document.createElement('div');
       subRow.className = 'table-row subrow';
