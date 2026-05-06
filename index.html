@@ -285,7 +285,7 @@ cats.forEach((c, i) => {
 
       let badgeHTML;
       if (isNew)       badgeHTML = '<span class="badge new">✦ NOVA</span>';
-      else if (isRem)  badgeHTML = '<span class="badge removed">✕ NÃO UTILIZADO</span>';
+      else if (isRem)  badgeHTML = '<span class="badge removed">✕ ISENTO</span>';
       else if (sFlat)  badgeHTML = '<span class="badge neutral">— 0,00%</span>';
       else             badgeHTML = `<span class="badge ${sUp ? 'up' : 'down'}">${sUp ? '▲' : '▼'} ${Math.abs(sv).toFixed(2)}%</span>`;
 
